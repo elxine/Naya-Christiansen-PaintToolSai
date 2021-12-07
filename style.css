@@ -17,6 +17,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+/*header*/
 .header {
 	height: 75px;
 	width: 100%;
@@ -73,4 +74,17 @@ body {
 	border-radius: 15px;
 }
 
+/*big img - måske i en container?*/
+.bigimg {
+	background-color: black;
+	width: auto;
+	height: 900px;
+	position: relative;
+}
 
+.bigimg img {
+	object-fit:contain;
+	opacity: 65%;
+	width: auto;
+	height: 975px;
+}
