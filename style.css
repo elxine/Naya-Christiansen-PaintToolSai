@@ -58,6 +58,19 @@ body {
 /*link section til højre*/
 .header-right {
 	float: right;
+	
+}
+
+.header button {
+	color: white;
+	text-transform: uppercase;
+	background-color: #63BB3F;
+	border:none;
+	padding: 30% 25%;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 2px;
+	border-radius: 15px;
 }
 
 
