@@ -79,3 +79,8 @@ body {
 
 /*big img - måske i en container?*/
 
+.bigimg img{
+	object-fit: cover; 
+	max-width: 1080px;
+	height: 975px;
+}
