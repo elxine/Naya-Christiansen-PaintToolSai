@@ -80,9 +80,10 @@ body {
 
 /*big img - måske i en container?*/
 
-.bigimg img{
+.bigimg {
+	background-image: url("../billeder/placeholder.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 975px;
+	height: 100%;
 }
