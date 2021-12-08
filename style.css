@@ -86,7 +86,9 @@ h1 {
 .hero-image {
   /* "linear-gradient" to add a darken background effect to the image */
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
-	height: 50%;
+	height: 975px;
+	width: 100%;
+	top: -100px;
 /*positon og center billedet til at skalere pænt på alle skærme */
 	background-position: center;
 	background-repeat: no-repeat;
