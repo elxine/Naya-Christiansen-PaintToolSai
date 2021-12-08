@@ -17,10 +17,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-	font-family: 'Yantramanav', sans-serif;
-	color: white;
-}
 
 /*header*/
 .header {
@@ -95,3 +91,25 @@ h1 {
 	background-size: cover;
 	position: relative;
 }
+
+.hero-image h1{
+	font: normal normal bold 80px/45px Yantramanav;
+	color: white;
+	
+	position: absolute;
+	top: 34%;
+	left: 65%; 
+}
+
+.hero-image p {
+	font: normal normal normal 40px/45px Open Sans;
+	text-transform: capitalize;
+	color:#E4E4E4;
+	
+	position: absolute;
+	top: 41%;
+	left: 65.1%;
+	width: 450px;
+	height: 100px;
+}
+
