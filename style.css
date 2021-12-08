@@ -32,6 +32,7 @@ body {
 	width: auto;
 	margin-left: 1%;
 	margin-top: 0.2%;
+	float: left;
 }
 
 /*header links*/
@@ -46,9 +47,10 @@ body {
 	text-transform: capitalize;
 }
 
-.header a.logo {
+.header a.title {
 	font-family: 'Yantramanav', sans-serif;
 	font-size: 25px;
+	position: relative;
 }
 
 /*active link*/
@@ -61,6 +63,7 @@ body {
 	float: right;
 	
 }
+
 
 .header button {
 	color: white;
@@ -75,6 +78,4 @@ body {
 }
 
 /*big img - måske i en container?*/
-.container {
-	display: flex;
-}
+
