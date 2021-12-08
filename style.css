@@ -75,16 +75,6 @@ body {
 }
 
 /*big img - måske i en container?*/
-.bigimg {
-	background-color: black;
-	width: auto;
-	height: 900px;
-	position: relative;
-}
-
-.bigimg img {
-	object-fit:contain;
-	opacity: 65%;
-	width: auto;
-	height: 975px;
+.container {
+	display: flex;
 }
