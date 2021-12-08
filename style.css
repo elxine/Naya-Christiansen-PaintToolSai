@@ -33,6 +33,7 @@ body {
 	margin-left: 1%;
 	margin-top: 0.2%;
 	float: left;
+	z-index: 1;
 }
 
 /*header links*/
@@ -80,7 +81,8 @@ body {
 /*big img - måske i en container?*/
 
 .bigimg img{
-	object-fit: cover; 
-	max-width: 1080px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 975px;
 }
