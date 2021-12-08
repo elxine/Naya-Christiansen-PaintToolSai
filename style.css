@@ -17,6 +17,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+	font-family: 'Yantramanav', sans-serif;
+	color: white;
+}
+
 /*header*/
 .header {
 	height: 75px;
