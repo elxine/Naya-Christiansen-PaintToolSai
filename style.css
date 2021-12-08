@@ -47,12 +47,15 @@ body {
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: capitalize;
+
 }
 
 .header a.title {
-	font-family: 'Yantramanav', sans-serif;
-	font-size: 25px;
+	font: normal normal normal 35px/45px Yantramanav;
+	color: white;
 	position: relative;
+	top: 5%;
+	padding: 12px;
 }
 
 /*active link*/
@@ -62,8 +65,7 @@ body {
 
 /*link section til højre*/
 .header-right {
-	float: right;
-	
+	float: right;	
 }
 
 
@@ -79,18 +81,35 @@ body {
 	border-radius: 15px;
 }
 
+.header a.lang { /*ja*/
+	font: normal normal normal 12px/45px Open Sans;
+	color: #e4e4e4;
+	padding: 5px;
+}
+
+.header a.langact { /*en*/
+	font: normal normal normal 12px/45px Open Sans;
+	color: #e4e4e4;
+	text-decoration: underline;
+	padding: 5px;
+}
+
+
+/*HERO IMAGE*/
+
 .hero-image {
   /* "linear-gradient" to add a darken background effect to the image */
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
 	height: 975px;
 	width: 100%;
-	top: -100px;
+	top: -80px;
 /*positon og center billedet til at skalere pænt på alle skærme */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 }
+
 
 .hero-image h1{
 	font: normal normal bold 80px/45px Yantramanav;
