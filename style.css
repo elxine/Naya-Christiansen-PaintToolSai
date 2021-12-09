@@ -186,51 +186,71 @@ hr.solid2 { /*top*/
 	margin-top: -15px;
 }
 
-/*FOOTER
+/*FOOTER*/
 .footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	background: #292929 0% 0% no-repeat padding-box;
-}*/
+}
 
 .foot-cont {
-	max-width: 1170px;
-	background-color: red;
 	margin: auto;
+	width: 150%;
 }
 
 .footer {
-	background-color: aquamarine;
-	padding: 70px 0px;
+	background-color: darkgray;
+	padding: 15px 0px;
 }
 
-.footer a {
-	text-decoration: none;
-	color: white;
-}
 
-.footer h2 {
-	text-transform: uppercase;
-}
-
-.footrow {
+.foot-row {
 	display: flex;
 	flex-wrap: wrap;
 }
 
+.foot-col {
+	width: 15%;
+	padding: 0px 15px;
+}
+
 .footer ul {
-	list-style: none;
+	list-style-type: none;
 	text-transform: capitalize;
 }
 
 .footer li {
 	text-transform: capitalize;
+	margin: 0px;
+	padding:0px;
 }
 
-.foot-col {
-	width: 25%;
-	padding: 0px 15px;
+.foot-col ul li:not(last-child) {
+	margin-bottom: 10px;
+}
+
+.foot-col ul li a {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+
+.foot-col h1 {
+	color: white;
+	font-size: 35px;
+	margin-bottom: -10px;
+	font-family: 'Yantramanav', sans-serif;
+	positon: relative;
+	text-decoration: underline;
+}
+
+.footer h2 {
+	text-transform: uppercase;
+	font-size: 20px;
 }
 
