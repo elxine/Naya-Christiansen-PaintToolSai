@@ -65,7 +65,8 @@ body {
 
 /*link section til højre*/
 .header-right {
-	float: right;	
+	float: right;
+	padding-top: 15px;
 }
 
 
