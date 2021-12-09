@@ -15,7 +15,6 @@ lys grøn: #63BB3F
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	box-sizing:border-box;
 }
 
 
@@ -80,7 +79,7 @@ body {
 
 
 .header span { /*free trial 0F0F0F  1B2F19*/
-	color: #315333;
+	color: #292929; 
 	font: Yantramanav;
 	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
@@ -176,6 +175,8 @@ body {
 
 /*DIVIDER*/
 
+
+
 hr.solid1 {
 	border-top: 26px solid #41A835  ;
 	margin-top: -95px;
@@ -186,73 +187,79 @@ hr.solid2 { /*top*/
 	margin-top: -15px;
 }
 
-/*FOOTER  	
-https://www.youtube.com/watch?v=YOb67OKw62s&ab_channel=TheWebShala
-*/
-.footer {
+/*FOOTER*/
+
+footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background: #292929 0% 0% no-repeat padding-box;
+	background: #292929 0% 0%;
 }
 
-.foot-cont {
-	margin: auto;
-	width: 150%;
-}
-
-.footer {
-	background-color: darkgray;
-	padding: 15px 0px;
-}
-
-
-.foot-row {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.foot-col {
-	width: 15%;
-	padding: 0px 15px;
-}
-
-.footer ul {
-	list-style-type: none;
-	text-transform: capitalize;
-}
-
-.footer li {
-	text-transform: capitalize;
-	margin: 0px;
-	padding:0px;
-}
-
-.foot-col ul li:not(last-child) {
-	margin-bottom: 10px;
-}
-
-.foot-col ul li a {
-	font-size: 20px;
-	font-family: 'Open Sans', sans-serif;
-	display: block;
+.footer-col a {
+	color: white;
 	text-decoration: none;
+	display: block;
+	margin: 5px;
+}
+
+.footer-col a:hover {
+	color: grey;
+}
+
+.footer-col li {
 	color: white;
 }
 
+.content {
+	height: auto;
+	background: #292929 ;
+}
 
-.foot-col h1 {
+.footer-content-wrapper {
+	width: 80%;
+	margin: 1em auto;  
+}
+
+.footer-content-wrapper h1 {
+	font-size: 30px;
+	margin-bottom: 10px;
 	color: white;
-	font-size: 35px;
-	margin-bottom: -10px;
-	font-family: 'Yantramanav', sans-serif;
-	positon: relative;
-	text-decoration: underline;
 }
 
-.footer h2 {
-	text-transform: uppercase;
-	font-size: 20px;
+.footer-col {
+	display: inline-block;
+	padding: 8px 1.6px 8px 16px;
+	box-sizing: border-box;
 }
+
+.ta-l {
+	text-align: left;
+}
+.flt {
+	float: left;
+}
+
+.large-25 {
+	width: 25%;
+}
+
+.footlang  {
+	color: white;
+	text-decoration: none;
+}
+
+.footlang a {
+	color: white;
+	text-decoration: none;
+}
+
+.footlang a:hover {
+	color: grey;
+}
+
+
+
+
 
