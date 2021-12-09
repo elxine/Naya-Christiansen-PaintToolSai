@@ -78,8 +78,11 @@ body {
 }
 
 
-.header span { /*free trial 0F0F0F*/
-	color: #0F0F0F;
+.header span { /*free trial 0F0F0F  1B2F19*/
+	color: white;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+	text-stroke: 0.2px black;
 	font: Yantramanav;
 	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
