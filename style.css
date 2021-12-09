@@ -84,14 +84,15 @@ body {
 .header a.lang { /*ja*/
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
-	padding: 5px;
+	padding: 20px 5px 0px 5px;
+	
 }
 
 .header a.langact { /*en*/
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
 	text-decoration: underline;
-	padding: 5px;
+	padding: 20px 5px 0px 0px;
 }
 
 
