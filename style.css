@@ -128,21 +128,50 @@ body {
 	color: white;
 	
 	position: absolute;
-	top: 34%;
-	left: 65%; 
+	top: 35%;
+	left: 60%; 
 }
 
 .hero-image p {
-	font: normal normal normal 40px/45px Open Sans;
+	font: normal normal normal 35px/45px Open Sans;
 	text-transform: capitalize;
 	color:#E4E4E4;
 	
 	position: absolute;
-	top: 41%;
-	left: 65.1%;
-	width: 450px;
+	top: 42%;
+	left: 60%;
+	width: 595px;
 	height: 100px;
 }
+
+.hero-image .btn1 { /*buy now*/
+	position: absolute;
+	top: 80%;
+	left: 52%; 
+	background-color: #ADDC58;
+	color: white;
+	font-size: 40px;
+	padding: 30px 82px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.hero-image .btn2 { /*free trial*/
+	position: absolute;
+	top: 80%;
+	left: 75%;
+	background-color: #63BB3F;
+	color: white;
+	font-size: 40px;
+	padding: 30px 62px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
 
 /*DIVIDER*/
 
