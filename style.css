@@ -78,22 +78,17 @@ body {
 }
 
 
-.header span {
-	color: white;
-	text-transform: uppercase;
-	background-color: #63BB3F;
-	border:none;
-	padding: 30% 25%;
-	text-align: center;
-	display: inline-block;
-	margin: 4px 2px;
+.header span { /*free trial*/
+	background: #41A835 0% 0% no-repeat padding-box;
 	border-radius: 15px;
+	padding: 10px;
+	text-transform: uppercase;
 }
 
 .header a.lang { /*ja*/
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
-	padding: 37px 5px 0px 5px;
+	padding: 35px 5px 0px 5px;
 	
 }
 
@@ -101,7 +96,7 @@ body {
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
 	text-decoration: underline;
-	padding: 37px 5px 0px 0px;
+	padding: 35px 5px 0px 0px;
 }
 
 
@@ -112,7 +107,7 @@ body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
 	height: 975px;
 	width: 100%;
-	top: -80px;
+	top: -95px;
 /*positon og center billedet til at skalere pænt på alle skærme */
 	background-position: center;
 	background-repeat: no-repeat;
