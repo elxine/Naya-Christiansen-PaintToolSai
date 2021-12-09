@@ -15,6 +15,7 @@ lys grøn: #63BB3F
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	box-sizing:border-box;
 }
 
 
@@ -23,7 +24,7 @@ body {
 	height: 95px;
 	width: 100%;
 	background: rgba(0,0,0,0.77);
-	position:relative;
+	position:fixed; /*relative*/
 	z-index: 1;
 	color: white;
 }
@@ -79,10 +80,7 @@ body {
 
 
 .header span { /*free trial 0F0F0F  1B2F19*/
-	color: white;
-	font-weight: bold;
-	-webkit-text-stroke: 0.5px black;
-	text-stroke: 0.2px black;
+	color: #1B2F19;
 	font: Yantramanav;
 	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
@@ -117,7 +115,7 @@ body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
 	height: 975px;
 	width: 100%;
-	top: -95px;
+	/*top: -95px;*/
 /*positon og center billedet til at skalere pænt på alle skærme */
 	background-position: center;
 	background-repeat: no-repeat;
@@ -186,5 +184,53 @@ hr.solid1 {
 hr.solid2 { /*top*/
 	border-top: 15px solid #63BB3F;
 	margin-top: -15px;
+}
+
+/*FOOTER
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #292929 0% 0% no-repeat padding-box;
+}*/
+
+.foot-cont {
+	max-width: 1170px;
+	background-color: red;
+	margin: auto;
+}
+
+.footer {
+	background-color: aquamarine;
+	padding: 70px 0px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer h2 {
+	text-transform: uppercase;
+}
+
+.footrow {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer ul {
+	list-style: none;
+	text-transform: capitalize;
+}
+
+.footer li {
+	text-transform: capitalize;
+}
+
+.foot-col {
+	width: 25%;
+	padding: 0px 15px;
 }
 
