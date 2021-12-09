@@ -20,7 +20,7 @@ body {
 
 /*header*/
 .header {
-	height: 75px;
+	height: 95px;
 	width: 100%;
 	background: rgba(0,0,0,0.77);
 	position:relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .header img {
-	height:150%;
+	height:125%;
 	width: auto;
 	margin-left: 1%;
 	margin-top: 0.2%;
@@ -54,8 +54,12 @@ body {
 	font: normal normal normal 35px/45px Yantramanav;
 	color: white;
 	position: relative;
-	top: 5%;
+	top: 20%;
 	padding: 12px;
+}
+
+.header a.title:hover {
+	color:white;
 }
 
 /*active link*/
@@ -63,14 +67,18 @@ body {
 	text-decoration: underline;
 }
 
+.header a:hover {
+	color: #CACACA;
+}
+
 /*link section til højre*/
 .header-right {
 	float: right;
-	padding-top: 15px;
+	padding-top: 32px;
 }
 
 
-.header button {
+.header span {
 	color: white;
 	text-transform: uppercase;
 	background-color: #63BB3F;
@@ -85,7 +93,7 @@ body {
 .header a.lang { /*ja*/
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
-	padding: 20px 5px 0px 5px;
+	padding: 37px 5px 0px 5px;
 	
 }
 
@@ -93,7 +101,7 @@ body {
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
 	text-decoration: underline;
-	padding: 20px 5px 0px 0px;
+	padding: 37px 5px 0px 0px;
 }
 
 
