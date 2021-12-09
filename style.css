@@ -51,11 +51,11 @@ body {
 }
 
 .header a.title {
-	font: normal normal normal 35px/45px Yantramanav;
+	font: normal normal normal 40px/45px Yantramanav;
 	color: white;
 	position: relative;
 	top: 20%;
-	padding: 12px;
+	padding: 8px 10px 0px 20px;
 }
 
 .header a.title:hover {
@@ -74,15 +74,22 @@ body {
 /*link section til højre*/
 .header-right {
 	float: right;
-	padding-top: 32px;
+	padding: 25px 10px 0px 0px;
 }
 
 
 .header span { /*free trial*/
-	background: #41A835 0% 0% no-repeat padding-box;
+	color: white;
+	font: Yantramanav;
+	background: #63BB3F 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
 	padding: 10px;
 	text-transform: uppercase;
+}
+
+.header span:hover {
+	color: white ;
+	background-color: #41A835;
 }
 
 .header a.lang { /*ja*/
