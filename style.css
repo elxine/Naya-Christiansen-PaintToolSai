@@ -137,3 +137,15 @@ body {
 	height: 100px;
 }
 
+/*DIVIDER*/
+
+hr.solid1 {
+	border-top: 26px solid #41A835  ;
+	margin-top: -95px;
+} 
+
+hr.solid2 { /*top*/
+	border-top: 15px solid #63BB3F;
+	margin-top: -15px;
+}
+
