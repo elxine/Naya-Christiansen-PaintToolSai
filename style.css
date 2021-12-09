@@ -80,11 +80,11 @@ body {
 
 
 .header span { /*free trial 0F0F0F  1B2F19*/
-	color: #1B2F19;
+	color: #315333;
 	font: Yantramanav;
 	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
-	padding: 10px;
+	padding: 10px 15px;
 	text-transform: uppercase;
 }
 
@@ -186,7 +186,9 @@ hr.solid2 { /*top*/
 	margin-top: -15px;
 }
 
-/*FOOTER*/
+/*FOOTER  	
+https://www.youtube.com/watch?v=YOb67OKw62s&ab_channel=TheWebShala
+*/
 .footer {
 	position: fixed;
 	left: 0;
