@@ -78,10 +78,10 @@ body {
 }
 
 
-.header span { /*free trial*/
-	color: white;
+.header span { /*free trial 0F0F0F*/
+	color: #0F0F0F;
 	font: Yantramanav;
-	background: #63BB3F 0% 0% no-repeat padding-box; 
+	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
 	padding: 10px;
 	text-transform: uppercase;
