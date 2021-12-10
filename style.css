@@ -315,7 +315,7 @@ footer {
 
 .footer-content-wrapper {
 	width: 80%;
-	margin: 1em auto;  
+	margin: 2px auto;  
 }
 
 .footer-content-wrapper h1 {
@@ -328,6 +328,7 @@ footer {
 .footlang  {
 	color: white;
 	text-decoration: none;
+	padding-top: 160px;
 	margin-top: 150px;
 	font-size: 23px;
 }
