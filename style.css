@@ -175,7 +175,7 @@ body {
 }
 
 
-/*DIVIDER
+/*DIVIDER*/
 
 .box{  
 	background-color: #41A835; 
@@ -191,26 +191,26 @@ body {
 	height: 1.5%; 
 	width: 100%; 
 	top: 103%;
-}*/
+}
 
 /*IMAGE TEXT*/
 
 .imgleft {
 	position: relative;
-	padding: 195px 0px 0px 150px;
+	padding: 200px 0px 0px 150px;
 }
 
 .imgleft img {
 	width: 55%;
-	height: auto;
+	height: 55%;
 }
 
 .imglefttxt {
-	z-index: 1;
 	position: absolute;
 	width: 800px;
 	margin-left:750px;
 	background-color: red;
+	text-align: center;
 
 }
 
