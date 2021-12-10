@@ -16,7 +16,7 @@ body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	background-image: url("../../logo og ikoner/Tegnebræt 8_1.png");
-	background: no-repeat;
+	background-repeat: repeat-y;
 }
 
 
