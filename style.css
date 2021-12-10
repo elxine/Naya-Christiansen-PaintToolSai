@@ -193,6 +193,8 @@ body {
 	top: 103%;
 }
 
+
+
 /*IMAGE TEXT
 
 .imgleft {
@@ -272,8 +274,47 @@ body {
 	width: 40%;
 }
 
+/*bottom hero image */
+.bottom-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
+	height: 250px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	top: 70px;
+}
 
+.bb1 {
+	position: absolute;
+	background-color: #ADDC58;
+	color: white;
+	font-size: 35px;
+	padding: 30px 82px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	left: 35%;
+	top: 30%;
+}
 
+.bb2 {
+	position: absolute;
+	background-color: #41A835;
+	color: white;
+	font-size: 35px;
+	padding: 30px 82px;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+	text-decoration: none;
+	left: 55%;
+	top: 30%;
+}
 
 /*FOOTER*/
 
@@ -344,6 +385,7 @@ footer {
 
 .credit {
 	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 15px;
 }
 
