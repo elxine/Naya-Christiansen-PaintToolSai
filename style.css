@@ -15,6 +15,8 @@ lys grøn: #63BB3F
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	background-image: url("../../logo og ikoner/Tegnebræt 8_1.png");
+	background: no-repeat;
 }
 
 
@@ -191,7 +193,30 @@ body {
 	top: 103%;
 }*/
 
+/*IMAGE TEXT*/
 
+.imgleft {
+	position: relative;
+	padding: 195px 0px 0px 150px;
+}
+
+.imgleft img {
+	width: 55%;
+	height: auto;
+}
+
+.imglefttxt {
+	z-index: 1;
+	position: absolute;
+	width: 800px;
+	margin-left:750px;
+	background-color: red;
+
+}
+
+.imglefttxt h1 {
+	
+}
 
 
 /*FOOTER*/
