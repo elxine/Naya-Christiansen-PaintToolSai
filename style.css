@@ -195,6 +195,19 @@ footer {
 	bottom: 0;
 	width: 100%;
 	background: #292929 0% 0%;
+	text-align: center;
+	color: white;
+}
+
+.footer-col {
+	display: block;
+	box-sizing: border-box;
+	float: left;
+	text-align: left;
+	padding: 0px 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width:25%;
 }
 
 .footer-col a {
@@ -212,11 +225,6 @@ footer {
 	color: white;
 }
 
-.content {
-	height: auto;
-	background: #292929 ;
-}
-
 .footer-content-wrapper {
 	width: 80%;
 	margin: 1em auto;  
@@ -228,26 +236,12 @@ footer {
 	color: white;
 }
 
-.footer-col {
-	display: inline-block;
-	padding: 8px 1.6px 8px 16px;
-	box-sizing: border-box;
-}
-
-.ta-l {
-	text-align: left;
-}
-.flt {
-	float: left;
-}
-
-.large-25 {
-	width: 25%;
-}
 
 .footlang  {
 	color: white;
 	text-decoration: none;
+	margin-top: 150px;
+	font-size: 23px;
 }
 
 .footlang a {
@@ -257,6 +251,11 @@ footer {
 
 .footlang a:hover {
 	color: grey;
+}
+
+.credit {
+	padding-top: 20px;
+	font-size: 15px;
 }
 
 
