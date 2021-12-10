@@ -223,21 +223,47 @@ body {
 	padding: 200px 0px 0px 150px;
 }
 
+
 .imgleft img {
 	object-fit: cover;
 	width: 917px;
 	height: 700px;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
+	border-radius: 3px;
 }
 
-.container {
-	postion: relative;
-}
-
-.text-block {
+.text-block-left {
 	position: absolute;
 	bottom: 32%;
 	border-radius: 15px;
 	left: 50%;
+	background-color: #292929;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	width: 40%;
+}
+
+.imgright {
+	position: relative;
+	left: 44%;
+	padding-top: 100px;
+}
+
+.imgright img {
+	object-fit: cover;
+	width: 917px;
+	height: 700px;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
+	border-radius: 3px;
+}
+
+.text-block-right {
+	position: absolute;
+	bottom: 35%;
+	border-radius: 15px;
+	right: 94%;
 	background-color: #292929;
 	color: white;
 	padding-left: 20px;
@@ -252,7 +278,7 @@ body {
 /*FOOTER*/
 
 footer {
-	position: fixed;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
