@@ -173,19 +173,26 @@ body {
 }
 
 
-/*DIVIDER*/
+/*DIVIDER
 
-
-
-hr.solid1 {
-	border-top: 26px solid #41A835  ;
-	margin-top: -95px;
+.box{  
+	background-color: #41A835; 
+	position: absolute; 
+	height: 30px; 
+	width: 100%; 
+	top: 101%;
 } 
 
-hr.solid2 { /*top*/
-	border-top: 15px solid #63BB3F;
-	margin-top: -15px;
-}
+.box2{  
+	background-color: #67B543; 
+	position: absolute; 
+	height: 1.5%; 
+	width: 100%; 
+	top: 103%;
+}*/
+
+
+
 
 /*FOOTER*/
 
