@@ -193,7 +193,7 @@ body {
 	top: 103%;
 }
 
-/*IMAGE TEXT*/
+/*IMAGE TEXT
 
 .imgleft {
 	position: relative;
@@ -216,7 +216,37 @@ body {
 
 .imglefttxt h1 {
 	
+}*/
+
+.imgleft {
+	position: relative;
+	padding: 200px 0px 0px 150px;
 }
+
+.imgleft img {
+	object-fit: cover;
+	width: 917px;
+	height: 700px;
+}
+
+.container {
+	postion: relative;
+}
+
+.text-block {
+	position: absolute;
+	bottom: 32%;
+	border-radius: 15px;
+	left: 50%;
+	background-color: #292929;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+	width: 40%;
+}
+
+
 
 
 /*FOOTER*/
