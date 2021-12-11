@@ -15,8 +15,9 @@ lys grøn: #63BB3F
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("../../logo og ikoner/Tegnebræt 8_1.png");
+	background-image: url("../../logo og ikoner/Tegnebræt 8_1_1.png");
 	background-repeat: repeat-y;
+	background-position: center;
 }
 
 
@@ -116,12 +117,12 @@ body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
 	height: 975px;
 	width: 100%;
-	/*top: -95px;*/
 /*positon og center billedet til at skalere pænt på alle skærme */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
 }
 
 
@@ -195,30 +196,7 @@ body {
 
 
 
-/*IMAGE TEXT
-
-.imgleft {
-	position: relative;
-	padding: 200px 0px 0px 150px;
-}
-
-.imgleft img {
-	width: 55%;
-	height: 55%;
-}
-
-.imglefttxt {
-	position: absolute;
-	width: 800px;
-	margin-left:750px;
-	background-color: red;
-	text-align: center;
-
-}
-
-.imglefttxt h1 {
-	
-}*/
+/*IMAGE TEXT*/
 
 .imgleft {
 	position: relative;
@@ -284,6 +262,7 @@ body {
 	background-size: cover;
 	position: relative;
 	top: 70px;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
 }
 
 .bb1 {
