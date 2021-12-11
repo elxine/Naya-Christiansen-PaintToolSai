@@ -129,7 +129,6 @@ body {
 .hero-image h1{
 	font: normal normal bold 80px/45px Yantramanav;
 	color: white;
-	
 	position: absolute;
 	top: 35%;
 	left: 60%; 
@@ -139,7 +138,6 @@ body {
 	font: normal normal normal 35px/45px Open Sans;
 	text-transform: capitalize;
 	color:#E4E4E4;
-	
 	position: absolute;
 	top: 42%;
 	left: 60%;
@@ -369,6 +367,12 @@ footer {
 }
 
 
+@media only screen and (max-width: 1600px) { /*knapper i heroimg */
+	
+}
 
+@media only screen and (max-width: 600px) { /*mobile*/
+	
+}
 
 
