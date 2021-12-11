@@ -368,10 +368,10 @@ footer {
 }
 
 
-@media only screen and (max-width: 1110px) { /*knapper i heroimg */
+@media only screen and (max-width: 960px) { /*knapper i heroimg */
 	.hero-image h1{
-	top: 35%;
-	left: 10%; 
+		top: 35%;
+		left: 10%; 
 	}
 
 	.hero-image p {
@@ -381,7 +381,7 @@ footer {
 
 	.hero-image .btn1 { /*buy now*/
 		top: 70%;
-		left: 15%; 
+		left: 8%; 
 	}
 
 	.hero-image .btn2 { /*free trial*/
@@ -391,22 +391,22 @@ footer {
 	
 	
 	.imgleft {
-		left: 10%;
+		left: 1.5%;
 	}
 
 	.text-block-left {
-		bottom: 30%;
-		left: 10%;
+		bottom: 23%;
+		left: 18%;
 		width: 60%;
 	}
 
 	.imgright {
-		left: 10%;
+		left: 1.5%;
 	}
 
 	.text-block-right {
-		bottom: 37%;
-		right: 27%;
+		bottom: 23%;
+		right: 18%;
 		width: 60%;
 	}
 	
@@ -429,6 +429,10 @@ footer {
 
 	.footer-content-wrapper {
 		width: 100%;
+	}
+	
+	.header a {
+		padding: 10px 8px;
 	}
 	
 }
