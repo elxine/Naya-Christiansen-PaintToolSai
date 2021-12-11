@@ -198,7 +198,8 @@ body {
 
 .imgleft {
 	position: relative;
-	padding: 200px 0px 0px 150px;
+	padding: 200px 0px 0px 0px;
+	left: 10%;
 }
 
 
@@ -214,7 +215,7 @@ body {
 	position: absolute;
 	bottom: 32%;
 	border-radius: 15px;
-	left: 50%;
+	left: 40%;
 	background-color: #292929;
 	color: white;
 	padding-left: 20px;
@@ -226,7 +227,7 @@ body {
 .imgright {
 	position: relative;
 	left: 44%;
-	padding-top: 100px;
+	padding: 200px 0px 0px 0px;
 }
 
 .imgright img {
@@ -274,8 +275,8 @@ body {
 	cursor: pointer;
 	text-transform: uppercase;
 	text-decoration: none;
-	left: 35%;
 	top: 30%;
+	left: 30%;
 }
 
 .bb2 {
@@ -289,8 +290,8 @@ body {
 	cursor: pointer;
 	text-transform: uppercase;
 	text-decoration: none;
-	left: 55%;
 	top: 30%;
+	left: 55%;
 }
 
 /*FOOTER*/
@@ -367,7 +368,68 @@ footer {
 }
 
 
-@media only screen and (max-width: 1600px) { /*knapper i heroimg */
+@media only screen and (max-width: 1110px) { /*knapper i heroimg */
+	.hero-image h1{
+	top: 35%;
+	left: 10%; 
+	}
+
+	.hero-image p {
+		top: 42%;
+		left: 10%;
+	}
+
+	.hero-image .btn1 { /*buy now*/
+		top: 70%;
+		left: 15%; 
+	}
+
+	.hero-image .btn2 { /*free trial*/
+		top: 70%;
+		left: 55%;
+	}
+	
+	
+	.imgleft {
+		left: 10%;
+	}
+
+	.text-block-left {
+		bottom: 30%;
+		left: 10%;
+		width: 60%;
+	}
+
+	.imgright {
+		left: 10%;
+	}
+
+	.text-block-right {
+		bottom: 37%;
+		right: 27%;
+		width: 60%;
+	}
+	
+	.bb1 {
+		padding: 20px 72px;
+		top: 30%;
+		left: 20%;
+	}
+
+	.bb2 {
+		padding: 20px 72px;
+		top: 30%;
+		left: 55%;
+	}
+	
+	.footer-col {
+		padding: 0px 50px;
+		width:25%;
+	}
+
+	.footer-content-wrapper {
+		width: 100%;
+	}
 	
 }
 
