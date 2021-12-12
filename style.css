@@ -368,6 +368,8 @@ footer {
 }
 
 
+
+
 @media only screen and (max-width: 960px) { /*knapper i heroimg */
 	.hero-image h1{
 		top: 35%;
@@ -477,6 +479,8 @@ footer {
 		display: block;
 		padding-left: 20px;
 	}
+	
+	.mobnav{display:grid;}
 }
 
 
