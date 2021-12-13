@@ -115,7 +115,7 @@ body {
 
 .hero-image {
   /* "linear-gradient" to add a darken background effect to the image */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/Skærmbillede 2021-12-13 195020.png");
 	height: 975px;
 	width: 100%;
 /*positon og center billedet til at skalere pænt på alle skærme */
