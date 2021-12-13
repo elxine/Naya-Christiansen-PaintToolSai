@@ -367,10 +367,91 @@ footer {
 	font-size: 15px;
 }
 
+/*header mobile*/
+
+.mobnav {
+	height: 95px;
+	width: 100%;
+	background: rgba(0,0,0,0.77);
+	position:relative;
+	z-index: 1;
+	display: none;
+}
+
+.mobnav a.title {
+	color: white;
+	text-decoration: none;
+	font-size: 45px;
+	margin-left: -12%;
+	margin-top: 6%;
+	font-family: 'Yantramanav', sans-serif;
+	text-align: left;
+}
+
+.content {
+	position: relative;
+	display: grid;
+	grid-template-columns: auto auto;
+	z-index: 1;
+	top: 5%;
+	left: 60px;
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+.mobnav  ul {
+	align-self: flex-end;
+}
+
+.mobnav ul li {
+	align-self: flex-end;
+	list-style: none;
+	position: relative;
+	
+}
+
+.mobnav ul li ul {
+	display: none; /*none*/
+	position: absolute;
+	background-color: rgba(0,0,0,0.77);
+	right: 25%;
+	top: 158.4%;
+}
+
+
+.mobnav ul li a {
+	display: block;
+	color: #fbfffd /*hvid*/;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+.mobnav ul li ul li {
+	width: 600px;
+}
+
+.mobnav ul li ul li a {
+	padding: 20px 50px;
+	z-index: 1;
+}
+
+.mobnav ul li ul li a:hover {
+	border-bottom: 3px solid #fbfffd /*hvid*/; 
+	border-top: 3px solid #fbfffd /*hvid*/; 
+	z-index: 1;
+}
+
+.mobnav ul li:hover ul {
+	display: block;
+	z-index: 1;
+}
 
 
 
-@media only screen and (max-width: 960px) { /*knapper i heroimg */
+@media only screen and (max-width: 1000px) { /*knapper i heroimg */
 	.hero-image h1{
 		top: 35%;
 		left: 10%; 
@@ -445,20 +526,23 @@ footer {
 	.header a.lang { /*ja*/
 		padding: 50px 5px 0px 5px;
 		position: relative;
-		right: 23.8%;
+		right: 23.4%;
 
 	}
 
 	.header a.langact { /*en*/
 		padding: 50px 5px 0px 0px;
 		position: relative;
-		right: 23.8%;
+		right: 23.4%;
 	}
-
+	
 	
 }
 
 @media only screen and (max-width: 600px) { /*mobile*/
+	.header {
+		display: none;
+	}
 	.header img {
 		display:none;
 	}
@@ -476,11 +560,10 @@ footer {
 	}
 	
 	.header a.title {
-		display: block;
-		padding-left: 20px;
+		display: none;
 	}
 	
-	.mobnav{display:grid;}
+	.mobnav{display:grid;position:relative;z-index:1;}
 }
 
 
