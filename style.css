@@ -82,7 +82,8 @@ body {
 
 
 .header span { /*free trial 0F0F0F  1B2F19*/
-	color: #292929; 
+	color: white; 
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.45);
 	font: Yantramanav;
 	background: #ADDC58 0% 0% no-repeat padding-box; 
 	border-radius: 15px;
@@ -98,7 +99,7 @@ body {
 .header a.lang { /*ja*/
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
-	padding: 35px 5px 0px 5px;
+	padding: 32.5px 5px 0px 5px;
 	
 }
 
@@ -106,7 +107,7 @@ body {
 	font: normal normal normal 12px/45px Open Sans;
 	color: #e4e4e4;
 	text-decoration: underline;
-	padding: 35px 5px 0px 0px;
+	padding: 32.5px 5px 0px 0px;
 }
 
 
@@ -157,6 +158,7 @@ body {
 	border-radius: 15px;
 	cursor: pointer;
 	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.30);
 }
 
 .hero-image .btn2 { /*free trial*/
@@ -171,6 +173,7 @@ body {
 	border-radius: 15px;
 	cursor: pointer;
 	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.30);
 }
 
 
@@ -277,6 +280,7 @@ body {
 	text-decoration: none;
 	top: 30%;
 	left: 30%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.30);
 }
 
 .bb2 {
@@ -292,6 +296,7 @@ body {
 	text-decoration: none;
 	top: 30%;
 	left: 55%;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.30);
 }
 
 /*FOOTER*/
@@ -396,6 +401,7 @@ footer {
 	position: absolute;
 	left: -85px;
 	top: 5%;
+	display:none;
 }
 
 
@@ -537,94 +543,19 @@ footer {
 	
 }
 
-@media only screen and (max-width: 600px) { /*mobile*/
-	.header {
-		display: none;
-	}
-	.header img {
-		display:none;
-	}
-	
-	a.lang {
-		display:none;
-	}
-	
-	a.langact {
-		display:none;
-	}
-	
-	.header a {
-		display: none;
-	}
-	
-	.header a.title {
-		display: none;
-	}
-	
-	.mobnav{display:grid;position:relative;z-index:1;}
-
-
-	.hero-image {
-		height: 650px;
-		width: 100%;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder_2.png");
-	}
-
-	.hero-image h1{
-		font: normal normal bold 80px/45px Yantramanav;
-		color: white;
-		position: absolute;
-		top: 35%;
-		left: 60%; 
-	}
-
-	.hero-image p {
-		font: normal normal normal 35px/45px Open Sans;
-		text-transform: capitalize;
-		color:#E4E4E4;
-		position: absolute;
-		top: 42%;
-		left: 60%;
-		width: 595px;
-		height: 100px;
-	}
-
-	.hero-image .btn1 { /*buy now*/
-		position: absolute;
-		top: 80%;
-		left: 52%; 
-		background-color: #ADDC58;
-		color: white;
-		font-size: 40px;
-		padding: 30px 82px;
-		border: none;
-		border-radius: 15px;
-		cursor: pointer;
-		text-transform: uppercase;
-	}
-
-	.hero-image .btn2 { /*free trial*/
-		position: absolute;
-		top: 80%;
-		left: 75%;
-		background-color: #63BB3F;
-		color: white;
-		font-size: 40px;
-		padding: 30px 62px;
-		border: none;
-		border-radius: 15px;
-		cursor: pointer;
-		text-transform: uppercase;
-	}
-}
-
-
 @media only screen and (max-width: 480px) { /*mobile*/
+	body {
+		background-image: url("../../logo og ikoner/Tegnebræt 16.png");
+		background-repeat: repeat-y;
+		background-position: center;
+	}
+	
 	.header {
 		display: none;
 	}
+	
 	.header img {
-		display:none;
+		display: none;
 	}
 	
 	a.lang {
@@ -648,21 +579,23 @@ footer {
 
 	.content {
 		top: -3%;
-		left: 85px;
+		left: 80px;
 		font-size: 25px;
 	}
 	
 	.content img {
 		top: 15%;
+		left: -75px;
+		display: flex;
 	}
 
 	.mobnav ul li ul li {
-		width: 480px;
+		width: 400px;
 	}
 
 	.mobnav ul li ul {
-		right: 16%;
-		top: 157%;
+		right: 35%;
+		top: 134%;
 	}
 	
 	.hero-image {
@@ -670,6 +603,29 @@ footer {
 		width: 100%;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder_2.png");
 	}
+	
+	.hero-text {
+		display: none;
+	}
+	
+	.hero-image .btn1 { /*buy now*/
+		top: 94%;
+		left: 20px; 
+		font-size: 25px;
+		padding: 15px 45px;
+		
+	}
+
+	.hero-image .btn2 { /*free trial*/
+		top: 94%;
+		width: 200px;
+		font-size: 25px;
+		padding: 15px 2px 15px 5px;
+		white-space: nowrap;
+		display: block;
+		overflow: hidden;
+	}
+	
 }
 
 
