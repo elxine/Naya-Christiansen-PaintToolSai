@@ -453,20 +453,33 @@ footer {
 	z-index: 1;
 }
 
-.txtbox {
-	padding: 15px;
-	top:41%;
-	left: 3.5%;
-	background-color: rgba(41,41,41,0.93);
-	color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	width: 85%;
-	font-size: 20px;
-	text-align: center;	
-	position: absolute;
-	border-radius: 15px;
+
+.grid-container {
+  	display: none;
+  	grid: 150px / auto;
+  	grid-gap: 50px;
+  	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
+	margin-top: 65px;
 }
+
+.grid-container > div {
+ 	background-color: rgba(41,41,41,0.83);
+	color: white;
+  	text-align: center;
+ 	padding: 25px 25px;
+ 	font-size: 20px;
+	border-radius: 25px;
+	width: 350px;
+	position: relative;
+	left: 8%;
+}
+
+.grid-container > img {
+	width: 100%;
+    height: 400px;
+	object-fit: cover;
+ }
+
 
 
 
@@ -639,63 +652,52 @@ footer {
 	.bottom-image{display:none;}
 	.bottom-image img {display:none;}
 	
-	.txtbox{display: inherit}
+	.imgleft{display:none;}
+	.imgright{display:none;}
 	
-	.imgleft {
-		position: relative;
-		top: 145px;
-		padding: 45px 0px 0px 0px;
-		left: 0%;
+	.grid-container {display: grid;}
+
+
+	.footer-col {
+		padding: 0px 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width:35%;
 	}
 
-
-	.imgleft img {
-		width: 100%;
-		height: 200px;
-	}
-
-	.text-block-left {
-		bottom: -105%;
-		left: 3.5%;
-		background-color: rgba(41,41,41,0.93);
+	.footer-col a {
 		color: white;
-		padding-left: 20px;
-		padding-right: 20px;
-		width: 85%;
+		text-decoration: none;
+		display: block;
+		margin: 2px;
+	}
+
+	.footer-content-wrapper {
+		width: 90%;
+		margin: 2px auto;  
+	}
+
+	.footer-content-wrapper h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+		color: white;
+	}
+
+
+	.footlang  {
+		color: white;
+		text-decoration: none;
+		padding-top: 160px;
+		margin-top: 150px;
 		font-size: 20px;
-		text-align: center;
 	}
 
-	.imgright {
-		position: relative;
-		top: 350px;
-		padding: 45px 0px 0px 0px;
-		left: -0%;
-	}
 
-	.imgright img {
-		object-fit: cover;
-		filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
-		border-radius: 3px;
-		width: 100%;
-		height: 200px;
+	.credit {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 15px;
 	}
-
-	.text-block-right {
-		position: absolute;
-		bottom: 35%;
-		border-radius: 15px;
-		right: 94%;
-		background-color: #292929;
-		color: white;
-		padding-left: 20px;
-		padding-right: 20px;
-		font-size: 25px;
-		width: 40%;
-		display: none;
-	}
-	
-	footer{display:none;}
 }
 
 
