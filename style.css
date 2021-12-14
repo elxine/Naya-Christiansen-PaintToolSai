@@ -487,12 +487,12 @@ footer {
 @media only screen and (max-width: 1000px) { /*knapper i heroimg */
 	.hero-image h1{
 		top: 35%;
-		left: 10%; 
+		left: 50%; 
 	}
 
 	.hero-image p {
 		top: 42%;
-		left: 10%;
+		left: 50%;
 	}
 
 	.hero-image .btn1 { /*buy now*/
@@ -507,7 +507,7 @@ footer {
 	
 	
 	.imgleft {
-		left: 1.5%;
+		left: 4%;
 	}
 
 	.text-block-left {
@@ -517,7 +517,7 @@ footer {
 	}
 
 	.imgright {
-		left: 1.5%;
+		left: 4%;
 	}
 
 	.text-block-right {
