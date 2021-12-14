@@ -15,7 +15,7 @@ lys grøn: #63BB3F
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	background-image: url("../../logo og ikoner/Tegnebræt 8_1_1.png");
+	background-image: url("billeder/baggrund.png");
 	background-repeat: repeat-y;
 	background-position: center;
 }
@@ -115,7 +115,7 @@ body {
 
 .hero-image {
   /* "linear-gradient" to add a darken background effect to the image */
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/Skærmbillede 2021-12-13 195020.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("billeder/heroimage.png");
 	height: 975px;
 	width: 100%;
 /*positon og center billedet til at skalere pænt på alle skærme */
@@ -239,7 +239,7 @@ body {
 
 /*bottom hero image */
 .bottom-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/placeholder.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("billeder/nederst_banner.png");
 	height: 250px;
 	width: 100%;
 	background-position: center;
@@ -563,7 +563,7 @@ footer {
 
 @media only screen and (max-width: 480px) { /*mobile*/
 	body {
-		background-image: url("../../logo og ikoner/Tegnebræt 16.png");
+		background-image: url("billeder/mob_baggrund.png");
 		background-repeat: repeat-y;
 		background-position: center;
 	}
@@ -620,7 +620,7 @@ footer {
 		top: 20px;
 		height: 200px;
 		width: 100%;
-		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../billeder/131221.png");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("billeder/mobheroimg.png");
 	}
 	
 	.hero-text {
@@ -646,6 +646,9 @@ footer {
 	.imgright{display:none;}
 	
 	.grid-container {display: grid;}
+	
+
+.grid-container > div {	left: 0%;}
 
 	
 	.footer-col {
