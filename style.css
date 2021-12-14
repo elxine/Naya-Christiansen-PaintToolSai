@@ -177,25 +177,6 @@ body {
 }
 
 
-/*DIVIDER*/
-
-.box{  
-	background-color: #41A835; 
-	position: absolute; 
-	height: 30px; 
-	width: 100%; 
-	top: 101%;
-} 
-
-.box2{  
-	background-color: #67B543; 
-	position: absolute; 
-	height: 1.5%; 
-	width: 100%; 
-	top: 103%;
-}
-
-
 
 /*IMAGE TEXT*/
 
@@ -216,15 +197,16 @@ body {
 
 .text-block-left {
 	position: absolute;
-	bottom: 32%;
+	bottom: 25%;
 	border-radius: 15px;
-	left: 40%;
-	background-color: #292929;
+	left: 46%;
+	background-color: rgba(41,41,41,0.83);
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 25px;
-	width: 40%;
+	width: 35%;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
 }
 
 .imgright {
@@ -243,15 +225,16 @@ body {
 
 .text-block-right {
 	position: absolute;
-	bottom: 35%;
+	bottom: 28%;
 	border-radius: 15px;
-	right: 94%;
-	background-color: #292929;
+	right: 98%;
+	background-color: rgba(41,41,41,0.83);
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 25px;
-	width: 40%;
+	width: 35%;
+	filter: drop-shadow(10px 15px 10px rgba(41, 41, 41, 0.2));
 }
 
 /*bottom hero image */
