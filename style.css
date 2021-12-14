@@ -505,9 +505,11 @@ footer {
 		left: 55%;
 	}
 	
+	.grid-container{display:grid}
+	.grid-container > div {width:750px}
 	
 	.imgleft {
-		left: 4%;
+		display:none;
 	}
 
 	.text-block-left {
@@ -517,7 +519,7 @@ footer {
 	}
 
 	.imgright {
-		left: 4%;
+		display: none;
 	}
 
 	.text-block-right {
