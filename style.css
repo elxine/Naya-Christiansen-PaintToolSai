@@ -506,7 +506,9 @@ footer {
 	}
 	
 	.grid-container{display:grid}
-	.grid-container > div {width:750px}
+	.grid-container > div {width:750px;}
+	.grid-container .item1 {height: 100%; padding-bottom: 30px;}
+	.grid-container .item2 {margin-top: 50px;}
 	
 	.imgleft {
 		display:none;
@@ -516,6 +518,7 @@ footer {
 		bottom: 23%;
 		left: 18%;
 		width: 60%;
+		display: none;
 	}
 
 	.imgright {
@@ -526,6 +529,7 @@ footer {
 		bottom: 23%;
 		right: 18%;
 		width: 60%;
+		display: none;
 	}
 	
 	.bb1 {
